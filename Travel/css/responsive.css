@@ -1,0 +1,141 @@
+@media only screen and (max-width: 479px) {
+  .wrapper {
+    overflow: hidden; }
+    .wrapper nav {
+      float: none; }
+      .wrapper nav .main {
+        margin-left: -9%; }
+      .wrapper nav .page-sound {
+        margin-left: 41%;
+        margin-top: -28%; }
+        .wrapper nav .page-sound #pause,
+        .wrapper nav .page-sound #play {
+          width: 36px;
+          height: 36px;
+          border-radius: 18px; }
+    .wrapper header .plane1 {
+      min-height: 25px; }
+      .wrapper header .plane1 img {
+        width: 100px;
+        height: 58px; }
+    .wrapper header .main-header {
+      min-height: 253px; }
+      .wrapper header .main-header img {
+        width: 200px;
+        height: 180px;
+        margin-left: 10px; }
+      .wrapper header .main-header h1 {
+        margin-top: -20%;
+        margin-left: 17%;
+        font-size: 18px; }
+      .wrapper header .main-header .play-button {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        margin-left: 18%;
+        margin-bottom: 20px; }
+    .wrapper header .plane2 {
+      min-height: 25px; }
+      .wrapper header .plane2 img {
+        width: 100px;
+        height: 58px; }
+  @keyframes stand {
+    0% {
+      position: absolute;
+      right: -100%;
+      top: 240px;
+      transform: rotate(0deg); }
+    70% {
+      position: absolute;
+      right: 10%;
+      top: 285px;
+      transform: rotate(0deg); }
+    90% {
+      position: absolute;
+      top: 290px;
+      right: 70%;
+      transform: rotate(5deg); }
+    100% {
+      position: absolute;
+      top: 310px;
+      right: 100%;
+      transform: rotate(7deg); } }
+    .wrapper .about-section {
+      column-count: 1;
+      padding-left: 16px; }
+      .wrapper .about-section .about-left {
+        max-width: 216px;
+        margin: 0 0 10px;
+        overflow: hidden; }
+        .wrapper .about-section .about-left h1 {
+          font-size: 16px; }
+        .wrapper .about-section .about-left p {
+          padding-left: 18px; }
+        .wrapper .about-section .about-left #read-more {
+          font-size: 12px;
+          padding: 3px;
+          margin-left: 25px; }
+      .wrapper .about-section .about-right {
+        padding-top: 0;
+        max-width: 241px;
+        margin-top: 10px;
+        height: 372px;
+        overflow: hidden;
+        padding-left: 10px; }
+    .wrapper .travel-info-slider {
+      overflow: hidden; }
+      .wrapper .travel-info-slider .column {
+        width: 219px;
+        margin-left: 1px; }
+    .wrapper .download .mobile {
+      margin: 0; }
+    .wrapper .download .app-store {
+      padding-left: 2px;
+      margin-left: 2px;
+      width: 219px;
+      margin-top: 10px;
+      padding-top: 10px;
+      overflow: hidden; }
+      .wrapper .download .app-store h1 {
+        font-style: 14px; }
+      .wrapper .download .app-store p {
+        padding-left: 8px; }
+      .wrapper .download .app-store span {
+        margin-left: 33px; }
+        .wrapper .download .app-store span img {
+          padding: 5px;
+          width: 58px;
+          margin-bottom: 25px;
+          height: 43px; }
+    .wrapper .contact h2 {
+      font-size: 12px; }
+    .wrapper .contact .email,
+    .wrapper .contact .phone,
+    .wrapper .contact .website {
+      width: 208px;
+      padding: 2px;
+      font-size: 15px; }
+      .wrapper .contact .email i,
+      .wrapper .contact .phone i,
+      .wrapper .contact .website i {
+        margin-left: 35%; }
+      .wrapper .contact .email h3,
+      .wrapper .contact .phone h3,
+      .wrapper .contact .website h3 {
+        font-size: 12px; }
+    .wrapper .pricing .input-field input {
+      font-size: 15px;
+      padding: 8px; }
+    .wrapper .pricing .input-field span .send {
+      margin-top: 10px;
+      margin-left: -20px; }
+    .wrapper footer .social {
+      width: 267px;
+      margin-left: 0; }
+      .wrapper footer .social li {
+        padding-left: 28px; }
+    .wrapper footer p {
+      width: 124px;
+      margin-left: 24%; } }
+
+/*# sourceMappingURL=responsive.css.map */

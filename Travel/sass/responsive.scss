@@ -1,0 +1,191 @@
+@media only screen and(max-width:479px) {
+    .wrapper {
+        overflow: hidden;
+        nav {
+            float: none;
+            .main {
+                margin-left: -9%;
+            }
+            .page-sound {
+                margin-left: 41%;
+                margin-top: -28%;
+                #pause,
+                #play {
+                    width: 36px;
+                    height: 36px;
+                    border-radius: 18px;
+                }
+            }
+        }
+        header {
+            .plane1 {
+                min-height: 25px;
+                img {
+                    width: 100px;
+                    height: 58px;
+                }
+            }
+            .main-header {
+                min-height: 253px;
+                img {
+                    width: 200px;
+                    height: 180px;
+                    margin-left: 10px;
+                }
+                h1 {
+                    margin-top: -20%;
+                    margin-left: 17%;
+                    font-size: 18px;
+                }
+                .play-button {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 20px;
+                    margin-left: 18%;
+                    margin-bottom: 20px;
+                }
+            }
+            .plane2 {
+                min-height: 25px;
+                img {
+                    width: 100px;
+                    height: 58px;
+                }
+            }
+            @keyframes stand {
+                0% {
+                    position: absolute;
+                    right: -100%;
+                    top: 240px;
+                    transform: rotate(0deg);
+                }
+                70% {
+                    position: absolute;
+                    right: 10%;
+                    top: 285px;
+                    transform: rotate(0deg);
+                }
+                90% {
+                    position: absolute;
+                    top: 290px;
+                    right: 70%;
+                    transform: rotate(5deg);
+                }
+                100% {
+                    position: absolute;
+                    top: 310px;
+                    right: 100%;
+                    transform: rotate(7deg);
+                }
+            }
+        }
+        .about-section {
+            column-count: 1;
+            padding-left: 16px;
+            .about-left {
+                max-width: 216px;
+                margin: 0 0 10px;
+                overflow: hidden;
+                h1 {
+                    font-size: 16px;
+                }
+                p {
+                    padding-left: 18px;
+                }
+                #read-more {
+                    font-size: 12px;
+                    padding: 3px;
+                    margin-left: 25px;
+                }
+            }
+            .about-right {
+                padding-top: 0;
+                max-width: 241px;
+                margin-top: 10px;
+                height: 372px;
+                overflow: hidden;
+                padding-left: 10px;
+            }
+        }
+        .travel-info-slider {
+            overflow: hidden;
+            .column {
+                width: 219px;
+                margin-left: 1px;
+            }
+        }
+        .download {
+            .mobile {
+                margin: 0;
+            }
+            .app-store {
+                padding-left: 2px;
+                margin-left: 2px;
+                width: 219px;
+                margin-top: 10px;
+                padding-top: 10px;
+                overflow: hidden;
+                h1 {
+                    font-style: 14px;
+                }
+                p {
+                    padding-left: 8px;
+                }
+                span {
+                    margin-left: 33px;
+                    img {
+                        padding: 5px;
+                        width: 58px;
+                        margin-bottom: 25px;
+                        height: 43px;
+                    }
+                }
+            }
+        }
+        .contact {
+            h2 {
+                font-size: 12px;
+            }
+            .email,
+            .phone,
+            .website {
+                width: 208px;
+                padding: 2px;
+                font-size: 15px;
+                i {
+                    margin-left: 35%;
+                }
+                h3 {
+                    font-size: 12px;
+                }
+            }
+        }
+        .pricing {
+            .input-field {
+                input {
+                    font-size: 15px;
+                    padding: 8px;
+                }
+                span {
+                    .send {
+                        margin-top: 10px;
+                        margin-left: -20px;
+                    }
+                }
+            }
+        }
+        footer {
+            .social {
+                width: 267px;
+                margin-left: 0;
+                li {
+                    padding-left: 28px;
+                }
+            }
+            p {
+                width: 124px;
+                margin-left: 24%;
+            }
+        }
+    }
+}
